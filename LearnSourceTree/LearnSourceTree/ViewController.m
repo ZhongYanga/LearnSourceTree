@@ -26,5 +26,8 @@
     // Dispose of any resources that can be recreated.
 }
 
-
+- (void)addFunction
+{
+    NSLog(@"添加一个方法");
+}
 @end
