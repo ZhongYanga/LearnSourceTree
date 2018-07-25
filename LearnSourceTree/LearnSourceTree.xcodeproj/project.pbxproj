@@ -15,6 +15,7 @@
 		7929B13620FCC0AF0022FA42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7929B13520FCC0AF0022FA42 /* main.m */; };
 		7929B14020FCC0B00022FA42 /* LearnSourceTreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7929B13F20FCC0B00022FA42 /* LearnSourceTreeTests.m */; };
 		7929B14B20FCC0B00022FA42 /* LearnSourceTreeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7929B14A20FCC0B00022FA42 /* LearnSourceTreeUITests.m */; };
+		798AA3AD210870DB003E00EC /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 798AA3AC210870DB003E00EC /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		7929B14620FCC0B00022FA42 /* LearnSourceTreeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnSourceTreeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7929B14A20FCC0B00022FA42 /* LearnSourceTreeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearnSourceTreeUITests.m; sourceTree = "<group>"; };
 		7929B14C20FCC0B00022FA42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		798AA3AB210870DB003E00EC /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		798AA3AC210870DB003E00EC /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				7929B13120FCC0AF0022FA42 /* LaunchScreen.storyboard */,
 				7929B13420FCC0AF0022FA42 /* Info.plist */,
 				7929B13520FCC0AF0022FA42 /* main.m */,
+				798AA3AB210870DB003E00EC /* Person.h */,
+				798AA3AC210870DB003E00EC /* Person.m */,
 			);
 			path = LearnSourceTree;
 			sourceTree = "<group>";
@@ -264,6 +269,7 @@
 			files = (
 				7929B12B20FCC0AD0022FA42 /* ViewController.m in Sources */,
 				7929B13620FCC0AF0022FA42 /* main.m in Sources */,
+				798AA3AD210870DB003E00EC /* Person.m in Sources */,
 				7929B12820FCC0AD0022FA42 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
