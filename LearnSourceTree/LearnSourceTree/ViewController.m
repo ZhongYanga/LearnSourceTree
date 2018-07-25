@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSLog(@"Hello World");
+    [self testFunction];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -29,5 +30,10 @@
 - (void)addFunction
 {
     NSLog(@"添加一个方法");
+}
+
+- (void)testFunction
+{
+    NSLog(@"test");
 }
 @end
